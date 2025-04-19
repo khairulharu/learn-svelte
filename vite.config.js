@@ -14,7 +14,8 @@ export default defineConfig({
         index: 'index.html',
         hello: 'hello.html',
         counter: 'counter.html',
-        say_hello: 'say-hello.html'
+        say_hello: 'say-hello.html',
+        global_counter: 'global-counter.html'
       }
     }
   }
