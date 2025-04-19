@@ -1,8 +1,8 @@
 <script>
-     const contextSomething = "Handle Something Behavior" 
+     const something = "Handle Something Behavior" 
 </script>
 
 
 <div class="bg-indigo-500">
-     <p class="text-white">{contextSomething}</p>
+     <p class="text-white">{something}</p>
 </div>
