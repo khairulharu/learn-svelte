@@ -8,4 +8,13 @@ export default defineConfig({
     svelte(),
     tailwindcss(),
   ],
+  build: {
+    rollupOptions: {
+      input: {
+        index: 'index.html',
+        hello: 'hello.html',
+        counter: 'counter.html'
+      }
+    }
+  }
 })

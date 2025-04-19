@@ -1,8 +1,8 @@
-import { mount } from "svelte";
+import { mount } from "svelte"
 import './app.css'
-import Hello from "./lib/Hello.svelte";
+import HelloSvelte from "./lib/HelloSvelte.svelte"
 
-const hello = mount(Hello, {
+const hello = mount(HelloSvelte, {
      target: document.getElementById('app'),
 })
 
