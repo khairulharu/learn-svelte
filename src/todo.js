@@ -1,7 +1,7 @@
 import { mount } from "svelte"
-import UserApp from "./lib/UserApp.svelte"
+import TodoApp from "./lib/TodoApp.svelte"
 
-const app = mount(UserApp,{
+const app = mount(TodoApp,{
      target: document.getElementById("app")
 })
 

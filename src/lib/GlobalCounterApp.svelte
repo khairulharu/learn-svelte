@@ -1,7 +1,7 @@
 <script>
-  import GlobalCounter from "./lib/GlobalCounter.svelte";
+  import GlobalCounter from "./GlobalCounter.svelte";
 
-  import { counter } from "./state/counter.svelte";
+  import { counter } from "../state/counter.svelte";
 
 </script>
 

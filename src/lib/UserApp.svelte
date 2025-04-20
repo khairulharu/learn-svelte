@@ -1,5 +1,5 @@
 <script>
-  import UserRow from "./lib/UserRow.svelte";
+  import UserRow from "./UserRow.svelte";
 
 
      const persons = [
@@ -18,8 +18,8 @@
           </tr>
      </thead>
      <tbody>
-          <UserRow {...persons[0]}/>
-          <UserRow {...persons[1]}/>
-          <UserRow {...persons[2]}/>
+          {#each persons as person }
+               <UserRow {...person}/>
+          {/each}
      </tbody>
 </table>
