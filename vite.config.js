@@ -18,7 +18,8 @@ export default defineConfig({
         global_counter: 'global-counter.html',
         auto_counter: 'auto-counter.html',
         user: 'user.html',
-        todo: 'todo.html'
+        todo: 'todo.html',
+        article: 'article.html'
       }
     }
   }
