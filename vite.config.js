@@ -15,7 +15,8 @@ export default defineConfig({
         hello: 'hello.html',
         counter: 'counter.html',
         say_hello: 'say-hello.html',
-        global_counter: 'global-counter.html'
+        global_counter: 'global-counter.html',
+        auto_counter: 'auto-counter.html'
       }
     }
   }
