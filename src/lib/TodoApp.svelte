@@ -4,20 +4,21 @@ import Todo from "./Todo.svelte";
 
 
      let data = $state([])
+     let name = $state("")
+
      let id = 0
 
      function add(e) {
           e.preventDefault()
 
-          const input = document.getElementById("todo")
-
           data.push({
                id: id++,
-               name: input.value,
-               edit: false
+               name: name,
+               edit: false,
+               done: false
           })
 
-          input.value = ""
+          name = ""
      }
 
      function remove(id) {
@@ -37,7 +38,7 @@ import Todo from "./Todo.svelte";
 </script>
 
 <form>
-     <input type="text" id="todo">
+     <input type="text" bind:value={name}>
      <button onclick={add}>Add</button>
 </form>
 

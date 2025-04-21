@@ -1,5 +1,7 @@
 <script>
-     const {id, name} = $props()
+     let {id, name, done} = $props()
+
+     $inspect(done).with((type, value) => console.info(type, value))
 </script>
 
-{id} - {name}
+<input type="checkbox" bind:checked={done}> {id} - {name}
