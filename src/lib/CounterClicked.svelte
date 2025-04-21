@@ -20,6 +20,6 @@
 
 </script>
 
-<h1>{count.join(" + ")} = {total}</h1>
+<h1 style:color="red">{count.join(" + ")} = {total}</h1>
 
 <button onclick={increment}>increment</button>
