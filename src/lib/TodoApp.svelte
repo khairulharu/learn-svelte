@@ -58,7 +58,8 @@ import Todo from "./Todo.svelte";
 </ul>
 
 <style>
-     button {
+     :global {
+          button {
           background-color: #4CAF50;
           border: none;
           color: white;
@@ -76,4 +77,5 @@ import Todo from "./Todo.svelte";
      button:hover {
           background-color: #45a849;
      }
+}
 </style>
