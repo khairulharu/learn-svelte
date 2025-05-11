@@ -21,7 +21,8 @@ export default defineConfig({
         todo: 'todo.html',
         article: 'article.html',
         time: 'time.html',
-        box: 'box.html'
+        box: 'box.html',
+        student: 'student.html' 
       }
     }
   }
