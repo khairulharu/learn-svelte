@@ -1,5 +1,5 @@
 <script>
-  import { counter } from "../state/counter.svelte";
+ import { counter } from "../state/counter.svelte";
 
      function increment() {
           counter.count++
