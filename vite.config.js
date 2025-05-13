@@ -23,7 +23,8 @@ export default defineConfig({
         time: 'time.html',
         box: 'box.html',
         student: 'student.html',
-        store_counter: 'store-counter.html'
+        store_counter: 'store-counter.html',
+        blog: 'blog.html',
       }
     }
   }
