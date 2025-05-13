@@ -25,6 +25,7 @@ export default defineConfig({
         student: 'student.html',
         store_counter: 'store-counter.html',
         blog: 'blog.html',
+        context_counter: 'context-counter.html',
       }
     }
   }
