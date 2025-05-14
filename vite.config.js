@@ -26,6 +26,7 @@ export default defineConfig({
         store_counter: 'store-counter.html',
         blog: 'blog.html',
         context_counter: 'context-counter.html',
+        mouse: 'mouse.html'
       }
     }
   }
